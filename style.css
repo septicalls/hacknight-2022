@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Gandhi Sans';
+    src: url('fonts/GandhiSans-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Gandhi Sans';
+    src: url('fonts/GandhiSans-Bold.otf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Gandhi Sans';
+    src: url('fonts/GandhiSans-Italic.otf');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gandhi Sans';
+    src: url('fonts/GandhiSans-BoldItalic.otf');
+    font-style: italic;
+    font-weight: bold;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gandhi Sans';
+    background-color: #67595E;
+    margin: 0 auto;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    background-color: #f2f2f2;
+    margin: 50px auto
+}
+
+#header {
+    margin: 30px;
+    width: 100%;
+    height:auto;
+    background-color: #A49393;
+}
+
+#formbox {
+    width: 1280px;
+    justify-content: center;
+    margin: 30px;
+}
+
+hr {
+    background-color: #A49393;
+    width: 100%;
+}
+
+#header h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 80px;
+}
+
+.submit{
+    background-color: #EED6D3;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.submit:hover{
+    background-color: #1E1E1E;
+    color: #EED6D3;
+}

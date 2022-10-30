@@ -1,54 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel = "stylesheet" href="/love.css">
-
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel = "stylesheet" href="/new.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>IVF Form</title>
 </head>
-<body style="background-color: black;">
-    <div class="main">
-    
-    <h1 class="pay">IVF FORM</h1>
-    <hr>
-    <h2>User Information</h2>
-
-    <form>
+<body>
+    <div id="container">
         
-        <p class="name">Name</p>
-        <input  name="name" type="text" placeholder="enter your name">
-        <br>
-        <input type="radio" value="male" name="gender">male
-        <input type="radio" value="female" name="gender">female
-        
-        <hr>
-        <textarea name ="feedback" id="101" placeholder="enter your feedback here" rows="10" cols="92">feedback</textarea>
-
-        <hr>
-        <div class="cont">
-        <h2>user problem</h2>
-        choose the correct issue
-        <br>
-        <select name="Payment" id="cash">
-            <option value="gpay">problem1</option>
-            <option value="bitcoin">vyasa</option>
-            <option value="gold">real big</option>
-            <option value="love">love</option>            
-        </select>
-
-        <br>
-        enter DOB:
-        <br>
-        <input type="date">
-        <br>
-        <input type="submit" value="submit" class="submit">
+        <div id="header">
+            <h1>IVF FORM</h1>
         </div>
+        <div id="formbox">
+        <h2>For the wife:</h2>
 
-    </form>
+        <form>
+            <h4>Please specify your age</h4>
+            <input type="text" name="age" placeholder="49">
+        </form>
+
+            <hr>
+        
+        <form>
+            <h4>Do you suffer from Endometriosis?</h4>
+            <input type="radio" value="yes" name="endometriosis">Yes
+            <input type="radio" value="no" name="endometriosis">No
+        </form>
+    
+            <hr>
+
+        <form>
+            <h4>Do you have a case of blocked Fallopian tubes?</h4>
+            <input type="radio" value="yes" name="fallopian">Yes
+            <input type="radio" value="no" name="fallopian">No
+        </form>
+
+            <hr>
+
+        <form>
+            <h4>Are you at high risk of genetic diseases, and would like to maintain reproductive potential?</h4>
+            <input type="radio" value="yes" name="genetic">Yes
+            <input type="radio" value="no" name="genetic">No
+        </form>
+
+            <hr>
+        <form>
+            <h4>Have you had two or more miscarriages?</h4>
+            <input type="radio" value="yes" name="pregloss">Yes
+            <input type="radio" value="no" name="pregloss">No
+        </form>
+
+            <hr>
+
+        <form>
+            <h4>Have you had previous failed IVF attempts? (yes if 3+)</h4>
+            <input type="radio" value="yes" name="ivfattempt">Yes
+            <input type="radio" value="no" name="ivfattempt">No
+        </form>
+
+            <hr>
+
+        <form>
+            <h4>Have you tried other treatment methods (like IUI)?</h4>
+            <input type="radio" value="yes" name="iuimethod">Yes
+            <input type="radio" value="no" name="iuimethod">No
+        </form>
+
+            <hr>
+        
+        <form>
+            <h4>Have you tried continued to try by natural methods?</h4>
+            <input type="radio" value="yes" name="naturalmethod">Yes
+            <input type="radio" value="no" name="naturalmethod">No
+        </form>
+
+            <hr>
+
+        <form>
+            <h4>Do you have a diagnosis of PCOS?</h4>
+            <input type="radio" value="yes" name="pcos">Yes
+            <input type="radio" value="no" name="pcos">No
+        </form>
+
+            <hr>
+
+        <h2>For the Husband:</h2>
+
+        <form>
+            <h4>Please specify your age</h4>
+            <input type="text" name="age" placeholder="51">
+        </form>
+
+            <hr>
+
+        <form>
+            <h4>Do you or your wife have a family history of inherited birth defect or abnormality and you would like to have a child that does not have this problem?</h4>
+            <input type="radio" value="yes" name="inherit">Yes
+            <input type="radio" value="no" name="inherit">No
+        </form>
+
+            <hr>
+
+        <form>
+            <h4>Do you suffer from infertility?</h4>
+            <input type="radio" value="yes" name="gender">Yes
+            <input type="radio" value="no" name="gender">No
+        </form>    
+            <hr>
+            <div id="submitbutton">
+                <input type="submit" value="Submit" class="submit">
+            </div>
+        </form>
+        </div>
     </div>
 
 </body>
