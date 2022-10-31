@@ -8,6 +8,7 @@
     <title>IVF Form</title>
 </head>
 <body>
+ <script src="script.js"></script>
     <div id="container">
         
         <div id="header">
@@ -18,7 +19,7 @@
 
         <form>
             <h4>Please specify your age</h4>
-            <input type="text" name="age" placeholder="49">
+            <input type="text" name="age" placeholder="49" >
         </form>
 
             <hr>
@@ -26,7 +27,7 @@
         <form>
             <h4>Do you suffer from Endometriosis?</h4>
             <input type="radio" value="yes" name="endometriosis">Yes
-            <input type="radio" value="no" name="endometriosis">No
+            <input id="endometriosis" type="radio" value="no" name="endometriosis">No
         </form>
     
             <hr>
@@ -34,7 +35,7 @@
         <form>
             <h4>Do you have a case of blocked Fallopian tubes?</h4>
             <input type="radio" value="yes" name="fallopian">Yes
-            <input type="radio" value="no" name="fallopian">No
+            <input id="fallopian" type="radio" value="no" name="fallopian">No
         </form>
 
             <hr>
@@ -42,14 +43,14 @@
         <form>
             <h4>Are you at high risk of genetic diseases, and would like to maintain reproductive potential?</h4>
             <input type="radio" value="yes" name="genetic">Yes
-            <input type="radio" value="no" name="genetic">No
+            <input id="genetic" type="radio" value="no" name="genetic">No
         </form>
 
             <hr>
         <form>
             <h4>Have you had two or more miscarriages?</h4>
             <input type="radio" value="yes" name="pregloss">Yes
-            <input type="radio" value="no" name="pregloss">No
+            <input id="pregloss" type="radio" value="no" name="pregloss">No
         </form>
 
             <hr>
@@ -57,15 +58,15 @@
         <form>
             <h4>Have you had previous failed IVF attempts? (yes if 3+)</h4>
             <input type="radio" value="yes" name="ivfattempt">Yes
-            <input type="radio" value="no" name="ivfattempt">No
+            <input id="ivfattempt" type="radio" value="no" name="ivfattempt">No
         </form>
 
             <hr>
 
         <form>
-            <h4>Have you tried other treatment methods (like IUI)?</h4>
+            <h4>Have you and your husband tried other treatment methods (like IUI)?</h4>
             <input type="radio" value="yes" name="iuimethod">Yes
-            <input type="radio" value="no" name="iuimethod">No
+            <input id="iuimethod" type="radio" value="no" name="iuimethod">No
         </form>
 
             <hr>
@@ -73,7 +74,7 @@
         <form>
             <h4>Have you tried continued to try by natural methods?</h4>
             <input type="radio" value="yes" name="naturalmethod">Yes
-            <input type="radio" value="no" name="naturalmethod">No
+            <input id="naturalmethod" type="radio" value="no" name="naturalmethod">No
         </form>
 
             <hr>
@@ -81,7 +82,7 @@
         <form>
             <h4>Do you have a diagnosis of PCOS?</h4>
             <input type="radio" value="yes" name="pcos">Yes
-            <input type="radio" value="no" name="pcos">No
+            <input id="pcos" type="radio" value="no" name="pcos">No
         </form>
 
             <hr>
@@ -98,19 +99,20 @@
         <form>
             <h4>Do you or your wife have a family history of inherited birth defect or abnormality and you would like to have a child that does not have this problem?</h4>
             <input type="radio" value="yes" name="inherit">Yes
-            <input type="radio" value="no" name="inherit">No
+            <input type="radio" value="no" name="inherit" id="inherit">No
         </form>
 
             <hr>
 
         <form>
             <h4>Do you suffer from infertility?</h4>
-            <input type="radio" value="yes" name="gender">Yes
-            <input type="radio" value="no" name="gender">No
+            <input type="radio" value="yes" name="infert">Yes
+            <input type="radio" value="no" name="infert" id="infertility">No
         </form>    
             <hr>
+            <h2 id="result"></h2>
             <div id="submitbutton">
-                <input type="submit" value="Submit" class="submit">
+                <button  value="Submit" class="submit" id="bt1" onclick="fn()">submit</button>
             </div>
         </form>
         </div>
