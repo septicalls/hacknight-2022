@@ -13,7 +13,7 @@ function fn(){
     var men2 = document.getElementById("infertility");
 
     let Wage = document.getElementById("Wage").value
-    let Mage = document.getElementById("Mage")
+    let Mage = document.getElementById("Mage").value
     
     if (Wage < 20 || Wage > 70 || Mage < 20 || Mage > 70) {
         result.innerHTML = "Please enter a valid age between 20 and 70 (inclusive) and try again.";
