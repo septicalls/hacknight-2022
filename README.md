@@ -5,7 +5,7 @@
 
 ![Screenshot of the IVF Analyser](screenshot.png)
 
-### Our solution is a website that uses pesudo machine learning to determine wheter any given infertile couple would benefit from the IVF treatment. Being a website, it is readily accessible throughout the world. It acts as a first resort where physically meeting an expert is not an option.
+### Our solution is a website that can determine wheter any given infertile couple would benefit from the IVF treatment. It is readily accessible throughout the world. It acts as a first resort where physically meeting an expert is not an option.
 
 ---
 #### Contributors:
