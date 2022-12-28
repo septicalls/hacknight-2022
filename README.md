@@ -1,5 +1,5 @@
 # IVF Analyser
-#### The website is live at https://ivf-analyser.septicalls.me/
+#### The website is live at https://septicalls.github.io/hacknight-2022/
 
 #### This project was made as an entry for SOSC's Hacknight 2022. It won second place in Junior Level.
 
